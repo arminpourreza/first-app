@@ -5901,7 +5901,7 @@ if (!jQuery) throw new Error("Bootstrap requires jQuery"); + function(e) {
         }
     }
 }), require.config({
-    baseUrl: "assets/js/lib/",
+    baseUrl: "js/lib/",
     shim: {
         backbone: {
             deps: ["underscore", "jquery"],
